@@ -1,0 +1,1772 @@
+/* =========================================================
+   AO3 VHS / CRT / RETRO COMPUTER SKIN
+   FUNDO VHS: IMAGEM AMPLA NOS PAINEIS, TEXTURA ORIGINAL NOS CONTROLES
+   ========================================================= */
+
+
+/* =========================================================
+   FUNDO GERAL
+   ========================================================= */
+
+html,
+body {
+  background-color: #080909 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-attachment:
+    fixed !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #cdd2cd !important;
+
+  font-family:
+    "Courier New",
+    Courier,
+    monospace !important;
+}
+
+
+/* =========================================================
+   ESTRUTURA PRINCIPAL
+   ========================================================= */
+
+#outer,
+#main {
+  background:
+    transparent !important;
+}
+
+#main {
+  color:
+    #cdd2cd !important;
+
+  border-top:
+    1px dashed #59605d !important;
+
+  padding-top:
+    12px !important;
+}
+
+
+/* =========================================================
+   TEXTO GERAL
+   ========================================================= */
+
+body,
+p,
+dd,
+dt,
+li,
+blockquote {
+  color:
+    #ccd1cc !important;
+
+  line-height:
+    1.58 !important;
+}
+
+p,
+dd,
+li {
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+strong,
+b {
+  color:
+    #edf0ec !important;
+}
+
+em,
+i {
+  color:
+    #dbce9a !important;
+}
+
+small,
+.datetime,
+.stats,
+.userstuff .byline {
+  color:
+    #909890 !important;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a,
+a:link {
+  color:
+    #91d0c7 !important;
+
+  text-decoration:
+    none !important;
+
+  text-shadow:
+    1.4px 0 #91424e,
+    -1.4px 0 #44968c !important;
+}
+
+a:visited {
+  color:
+    #baa9bb !important;
+}
+
+a:hover,
+a:focus {
+  color:
+    #f5a38f !important;
+
+  text-shadow:
+    1.8px 0 #a64c59,
+    -1.8px 0 #54a99e !important;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+#header {
+  background-color:
+    #111515 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center top !important;
+
+  background-size:
+    cover !important;
+
+  border-bottom:
+    1px solid #626966 !important;
+
+  box-shadow:
+    0 2px 0 #753943,
+    0 4px 0 #397a73,
+    0 6px 0 #000000 !important;
+}
+
+#header .primary {
+  background:
+    #111616 !important;
+
+  border-top:
+    1px solid #474d4a !important;
+}
+
+#header .primary a {
+  color:
+    #d8ddd7 !important;
+
+  font-family:
+    "Courier New",
+    Courier,
+    monospace !important;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    1px;
+
+  text-shadow:
+    1px 0 #70353e,
+    -1px 0 #39766f !important;
+}
+
+#header .primary a:hover {
+  background:
+    #262d2c !important;
+
+  color:
+    #ffffff !important;
+
+  text-shadow:
+    2px 0 #91434d,
+    -2px 0 #44998f !important;
+}
+
+#header .logo {
+  opacity:
+    0.9;
+}
+
+
+/* =========================================================
+   DROPDOWNS
+   ========================================================= */
+
+#header .dropdown-menu,
+#header .menu,
+.dropdown-menu {
+  background-color:
+    #111516 !important;
+
+  background-image:
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  border:
+    1px solid #626a66 !important;
+
+  border-left:
+    2px solid #79404a !important;
+
+  border-right:
+    2px solid #40827b !important;
+
+  border-radius:
+    0 !important;
+
+  box-shadow:
+    4px 4px 0 #020303 !important;
+}
+
+#header .dropdown-menu a {
+  color:
+    #d5dad5 !important;
+}
+
+#header .dropdown-menu a:hover {
+  background:
+    #28302f !important;
+
+  color:
+    #ffffff !important;
+}
+
+
+/* =========================================================
+   TITULOS
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:
+    #e5e9e4 !important;
+
+  font-family:
+    "Courier New",
+    Courier,
+    monospace !important;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    1px;
+
+  text-shadow:
+    2px 0 #733740,
+    -2px 0 #3a7d76 !important;
+}
+
+h2.heading,
+h3.heading {
+  border-bottom:
+    1px dashed #626966 !important;
+
+  padding-bottom:
+    8px !important;
+}
+
+
+/* =========================================================
+   CARDS DAS HISTORIAS
+   ========================================================= */
+
+li.blurb,
+.blurb {
+  background-image:
+    none !important;
+
+  background-color:
+    #0d1112 !important;
+
+  color:
+    #d4d9d4 !important;
+
+  border:
+    1px solid #626966 !important;
+
+  border-top:
+    2px solid #777e7a !important;
+
+  border-bottom:
+    2px solid #292e2e !important;
+
+  border-left:
+    3px solid #804049 !important;
+
+  border-right:
+    3px solid #40877f !important;
+
+  border-radius:
+    0 !important;
+
+  padding:
+    15px !important;
+
+  margin:
+    0 4px 24px 4px !important;
+
+  box-shadow:
+    2px 0 0 #5d3037,
+    -2px 0 0 #306762,
+    6px 6px 0 #020303 !important;
+}
+
+li.blurb:hover,
+.blurb:hover {
+  background-color:
+    #121718 !important;
+
+  border-top-color:
+    #929995 !important;
+
+  border-left-color:
+    #98505a !important;
+
+  border-right-color:
+    #4b9d93 !important;
+
+  box-shadow:
+    3px 0 0 #713a42,
+    -3px 0 0 #397d76,
+    7px 7px 0 #000000 !important;
+}
+
+
+/* =========================================================
+   TITULO DAS HISTORIAS
+   ========================================================= */
+
+.blurb h4,
+.blurb .heading {
+  background:
+    #090d0e !important;
+
+  color:
+    #e8ece7 !important;
+
+  border:
+    1px solid #363d3a !important;
+
+  border-bottom:
+    1px dashed #636b67 !important;
+
+  padding:
+    8px !important;
+
+  box-shadow:
+    2px 2px 0 #000000 !important;
+}
+
+.blurb h4 a,
+.blurb .heading a {
+  color:
+    #f0f3ef !important;
+
+  font-weight:
+    bold !important;
+
+  letter-spacing:
+    0.5px;
+
+  text-shadow:
+    2px 0 #743842,
+    -2px 0 #3c8179 !important;
+}
+
+.blurb h4 a:hover,
+.blurb .heading a:hover {
+  color:
+    #f6a590 !important;
+
+  text-shadow:
+    2px 0 #88404a,
+    -2px 0 #42948b !important;
+}
+
+
+/* =========================================================
+   TEXTO DOS CARDS
+   ========================================================= */
+
+.blurb p,
+.blurb li,
+.blurb dd {
+  color:
+    #d1d6d1 !important;
+
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+.blurb strong {
+  color:
+    #f0f2ef !important;
+}
+
+.blurb .userstuff,
+.blurb blockquote {
+  background:
+    #111617 !important;
+
+  color:
+    #d0d5d0 !important;
+
+  border-left:
+    2px solid #6e444a !important;
+
+  border-right:
+    2px solid #3e7973 !important;
+
+  padding:
+    8px !important;
+}
+
+
+/* =========================================================
+   ESTATISTICAS
+   ========================================================= */
+
+.required-tags,
+.stats {
+  color:
+    #959d96 !important;
+}
+
+.stats dt {
+  color:
+    #aed5ae !important;
+
+  text-transform:
+    uppercase;
+
+  text-shadow:
+    1px 0 #573038,
+    -1px 0 #2c635c !important;
+}
+
+.stats dd {
+  color:
+    #d0d5d0 !important;
+
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+
+/* =========================================================
+   TAGS
+   ========================================================= */
+
+.tags a.tag,
+a.tag {
+  background-color:
+    #141819 !important;
+
+  background-image:
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #dde1dc !important;
+
+  border:
+    1px solid #606864 !important;
+
+  border-top:
+    1px solid #747b77 !important;
+
+  border-bottom:
+    1px solid #292e2f !important;
+
+  border-left:
+    2px solid #7b4049 !important;
+
+  border-right:
+    2px solid #40857d !important;
+
+  border-radius:
+    0 !important;
+
+  padding:
+    2px 6px !important;
+
+  text-decoration:
+    none !important;
+
+  box-shadow:
+    2px 2px 0 #000000 !important;
+
+  text-shadow:
+    1px 0 #613139,
+    -1px 0 #316a64 !important;
+}
+
+.tags a.tag:hover,
+a.tag:hover {
+  color:
+    #ffffff !important;
+
+  border-left-color:
+    #9d505a !important;
+
+  border-right-color:
+    #50a39a !important;
+
+  box-shadow:
+    3px 3px 0 #000000 !important;
+}
+
+.relationships a.tag {
+  border-left:
+    3px solid #a5515c !important;
+}
+
+.characters a.tag {
+  border-left:
+    3px solid #4d968e !important;
+}
+
+.freeforms a.tag {
+  border-left:
+    3px solid #aaa967 !important;
+}
+
+
+/* =========================================================
+   BOTOES VHS
+   ========================================================= */
+
+button,
+input[type="submit"],
+input[type="button"],
+.actions a,
+.actions input,
+.actions button {
+  background-color:
+    #111617 !important;
+
+  background-image:
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #eeeeea !important;
+
+  border:
+    1px solid #69716d !important;
+
+  border-top:
+    2px solid #7c8380 !important;
+
+  border-bottom:
+    2px solid #292e2f !important;
+
+  border-left:
+    2px solid #7d4049 !important;
+
+  border-right:
+    2px solid #438980 !important;
+
+  border-radius:
+    0 !important;
+
+  font-family:
+    "Courier New",
+    Courier,
+    monospace !important;
+
+  font-weight:
+    bold !important;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    0.5px;
+
+  padding:
+    5px 10px !important;
+
+  box-shadow:
+    2px 0 0 #572c34,
+    -2px 0 0 #2b625c,
+    3px 3px 0 #000000 !important;
+
+  text-shadow:
+    1px 0 #68343c,
+    -1px 0 #356f69 !important;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.actions a:hover,
+.actions input:hover,
+.actions button:hover {
+  color:
+    #ffffff !important;
+
+  border-left-color:
+    #a14e59 !important;
+
+  border-right-color:
+    #4da096 !important;
+
+  box-shadow:
+    3px 0 0 #743842,
+    -3px 0 0 #397d76,
+    4px 4px 0 #000000 !important;
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active,
+.actions a:active {
+  background:
+    #0c1011 !important;
+
+  border-top-color:
+    #383e3d !important;
+
+  border-bottom-color:
+    #747c78 !important;
+
+  box-shadow:
+    1px 1px 0 #000000 !important;
+}
+
+
+/* =========================================================
+   INPUTS / FORMULARIOS
+   ========================================================= */
+
+input,
+textarea,
+select {
+  background-color:
+    #090d0e !important;
+
+  background-image:
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #e1e5e0 !important;
+
+  border:
+    1px solid #59615e !important;
+
+  border-left:
+    2px solid #713a43 !important;
+
+  border-right:
+    2px solid #397b74 !important;
+
+  border-radius:
+    0 !important;
+
+  font-family:
+    "Courier New",
+    Courier,
+    monospace !important;
+
+  box-shadow:
+    inset 2px 2px 0 #000000 !important;
+
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  color:
+    #ffffff !important;
+
+  border-left-color:
+    #98505a !important;
+
+  border-right-color:
+    #4d9c94 !important;
+
+  outline:
+    1px dashed #7e8882 !important;
+}
+
+
+/* =========================================================
+   PREFACE
+   ========================================================= */
+
+.preface {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d2d7d2 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #6a716d !important;
+
+  border-bottom:
+    2px solid #252a2a !important;
+
+  border-left:
+    3px solid #ad8a59 !important;
+
+  border-right:
+    2px solid #43877f !important;
+
+  padding:
+    14px !important;
+
+  box-shadow:
+    2px 0 0 #5e3037,
+    -2px 0 0 #30655f,
+    5px 5px 0 #020303 !important;
+}
+
+
+/* =========================================================
+   SUMMARY
+   ========================================================= */
+
+.summary {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d2d7d2 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #6a716d !important;
+
+  border-bottom:
+    2px solid #252a2a !important;
+
+  border-left:
+    3px solid #43877f !important;
+
+  border-right:
+    2px solid #773c46 !important;
+
+  padding:
+    12px !important;
+
+  box-shadow:
+    2px 0 0 #5e3037,
+    -2px 0 0 #30655f,
+    5px 5px 0 #020303 !important;
+}
+
+
+/* =========================================================
+   NOTES
+   ========================================================= */
+
+.notes {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d2d7d2 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #6a716d !important;
+
+  border-bottom:
+    2px solid #252a2a !important;
+
+  border-left:
+    3px solid #89434e !important;
+
+  border-right:
+    2px solid #43877f !important;
+
+  padding:
+    12px !important;
+
+  box-shadow:
+    2px 0 0 #5e3037,
+    -2px 0 0 #30655f,
+    5px 5px 0 #020303 !important;
+}
+
+
+/* =========================================================
+   META / TERMINAL ANTIGO
+   ========================================================= */
+
+dl.meta,
+dl.work.meta,
+.bookmark .meta,
+.series.meta {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    linear-gradient(rgba(16, 20, 21, 0.12), rgba(16, 20, 21, 0.12)),
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d0d6d0 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #6a716d !important;
+
+  border-bottom:
+    2px solid #272c2d !important;
+
+  border-left:
+    3px solid #7d3f48 !important;
+
+  border-right:
+    3px solid #40827b !important;
+
+  border-top-style:
+    dashed !important;
+
+  border-bottom-style:
+    dashed !important;
+
+  outline:
+    1px dashed #6c5a70 !important;
+
+  padding:
+    10px !important;
+
+  box-shadow:
+    2px 0 0 #572d34,
+    -2px 0 0 #2a605a,
+    5px 5px 0 #020303 !important;
+}
+
+dl.meta dt,
+dl.work.meta dt,
+.bookmark .meta dt,
+.series.meta dt {
+  color:
+    #add4ae !important;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    1px;
+
+  text-shadow:
+    1px 0 #61323a,
+    -1px 0 #316a64 !important;
+}
+
+dl.meta dd,
+dl.work.meta dd,
+.bookmark .meta dd,
+.series.meta dd {
+  color:
+    #d6dad6 !important;
+
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+
+/* =========================================================
+   TEXTO DAS OBRAS
+   ========================================================= */
+
+#workskin {
+  background-color:
+    #0d1112 !important;
+
+  background-image:
+    none !important;
+
+  color:
+    #d5dad5 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #6c7470 !important;
+
+  border-bottom:
+    2px solid #282d2d !important;
+
+  border-left:
+    3px solid #7f4048 !important;
+
+  border-right:
+    3px solid #40877f !important;
+
+  padding:
+    2em !important;
+
+  box-shadow:
+    2px 0 0 #5f3238,
+    -2px 0 0 #306762,
+    6px 6px 0 #020303 !important;
+}
+
+#workskin p,
+#workskin div,
+#workskin span {
+  color:
+    #dadedA !important;
+
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+#workskin p {
+  line-height:
+    1.72 !important;
+}
+
+#workskin h2,
+#workskin h3,
+#workskin h4 {
+  color:
+    #f0f2ef !important;
+
+  text-shadow:
+    2px 0 #713740,
+    -2px 0 #397b74 !important;
+}
+
+/* Letra capitular no texto, sem atingir resumo ou notas.
+   O AO3 usa estruturas diferentes para capitulo unico e obra completa. */
+#chapters > .userstuff p,
+#chapters > .chapter > .userstuff[role="article"] p {
+  text-indent: 1.5em !important;
+}
+
+#chapters > .userstuff > p:first-of-type,
+#chapters > .chapter > .userstuff[role="article"] > p:first-of-type {
+  text-indent: 0 !important;
+}
+
+#chapters > .userstuff > p:first-of-type::first-letter,
+#chapters > .chapter > .userstuff[role="article"] > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.02em 0.12em 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 5.6em;
+  font-weight: bold;
+  line-height: 0.92;
+  color: #e9d6d9 !important;
+  text-shadow:
+    2px 0 #8b3d4d,
+    -2px 0 #397f7b,
+    0 2px #080b0c !important;
+}
+
+
+/* =========================================================
+   FILTROS
+   ========================================================= */
+
+.filters,
+.filters fieldset {
+  background-color:
+    #0f1314 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d0d5d0 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #666d69 !important;
+
+  border-bottom:
+    2px solid #292d2e !important;
+
+  border-left:
+    3px solid #793c46 !important;
+
+  border-right:
+    3px solid #3f827a !important;
+
+  box-shadow:
+    2px 0 0 #572c33,
+    -2px 0 0 #2a605a,
+    6px 6px 0 #020303 !important;
+}
+
+.filters dt,
+.filters h3,
+.filters h4,
+legend {
+  color:
+    #aed5ae !important;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    1px;
+
+  text-shadow:
+    1px 0 #603139,
+    -1px 0 #316861 !important;
+}
+
+
+/* =========================================================
+   COMENTARIOS
+   ========================================================= */
+
+.comment,
+.thread .comment {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d0d5d0 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-top:
+    2px solid #666d69 !important;
+
+  border-bottom:
+    2px solid #292d2e !important;
+
+  border-left:
+    3px solid #687e6d !important;
+
+  border-right:
+    2px solid #428079 !important;
+
+  box-shadow:
+    2px 0 0 #572d34,
+    -2px 0 0 #2a605a,
+    5px 5px 0 #020303 !important;
+}
+
+
+/* =========================================================
+   PAGINACAO
+   ========================================================= */
+
+.pagination a,
+.pagination .current {
+  background-color:
+    #14191a !important;
+
+  background-image:
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #e0e4df !important;
+
+  border:
+    1px solid #5b6360 !important;
+
+  border-left:
+    2px solid #784049 !important;
+
+  border-right:
+    2px solid #3e827a !important;
+
+  border-radius:
+    0 !important;
+
+  box-shadow:
+    2px 2px 0 #000000 !important;
+
+  text-shadow:
+    1px 0 #583038,
+    -1px 0 #2d625c !important;
+}
+
+.pagination a:hover {
+  color:
+    #ffffff !important;
+
+  border-left-color:
+    #994e59 !important;
+
+  border-right-color:
+    #4d9e95 !important;
+}
+
+.pagination .current {
+  color:
+    #ffffff !important;
+
+  border-left-color:
+    #a7515c !important;
+
+  border-right-color:
+    #50a69c !important;
+}
+
+
+/* =========================================================
+   TABELAS
+   ========================================================= */
+
+table {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d0d5d0 !important;
+
+  border:
+    1px solid #555d59 !important;
+
+  border-collapse:
+    collapse !important;
+
+  box-shadow:
+    5px 5px 0 #020303 !important;
+}
+
+thead,
+th {
+  background:
+    #151a1b !important;
+
+  color:
+    #e2e7e2 !important;
+
+  text-transform:
+    uppercase;
+
+  letter-spacing:
+    1px;
+
+  text-shadow:
+    1px 0 #653139,
+    -1px 0 #316d67 !important;
+}
+
+td,
+th {
+  border:
+    1px solid #454c49 !important;
+}
+
+tbody tr:hover {
+  background:
+    #1c2222 !important;
+}
+
+
+/* =========================================================
+   BLOCKQUOTE
+   ========================================================= */
+
+blockquote {
+  background-color:
+    #101415 !important;
+
+  background-image:
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #d5dad5 !important;
+
+  border-top:
+    1px solid #5a625e !important;
+
+  border-bottom:
+    1px solid #292e2e !important;
+
+  border-left:
+    3px solid #ad8a59 !important;
+
+  border-right:
+    2px solid #42847c !important;
+
+  padding:
+    10px 14px !important;
+
+  box-shadow:
+    2px 0 0 #572d34,
+    -2px 0 0 #2a605a,
+    4px 4px 0 #020303 !important;
+
+  text-shadow:
+    0 1px #000000 !important;
+}
+
+
+/* =========================================================
+   ALERTAS
+   ========================================================= */
+
+.notice,
+.error,
+.caution,
+.comment_error {
+  background-color:
+    #111516 !important;
+
+  background-image:
+    linear-gradient(rgba(17, 21, 22, 0.12), rgba(17, 21, 22, 0.12)),
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center center !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #e0e4df !important;
+
+  border:
+    1px solid #626966 !important;
+
+  border-top:
+    2px solid #777e7a !important;
+
+  border-bottom:
+    2px solid #292e2e !important;
+
+  border-left:
+    3px solid #9b4c57 !important;
+
+  border-right:
+    3px solid #4a9189 !important;
+
+  border-top-style:
+    dashed !important;
+
+  border-bottom-style:
+    dashed !important;
+
+  outline:
+    1px dashed #6c5a70 !important;
+
+  box-shadow:
+    2px 0 0 #613139,
+    -2px 0 0 #306760,
+    5px 5px 0 #000000 !important;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+#footer {
+  background-color:
+    #090d0e !important;
+
+  background-image:
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+
+  background-repeat:
+    no-repeat !important;
+
+  background-position:
+    center bottom !important;
+
+  background-size:
+    cover !important;
+
+  color:
+    #959d96 !important;
+
+  border-top:
+    1px solid #59615e !important;
+
+  box-shadow:
+    0 -2px 0 #63343c,
+    0 -4px 0 #326b65 !important;
+}
+
+#footer a {
+  color:
+    #8bcac2 !important;
+
+  text-shadow:
+    1px 0 #573038,
+    -1px 0 #2c625c !important;
+}
+
+#footer a:hover {
+  color:
+    #efa18f !important;
+
+  text-shadow:
+    2px 0 #813a43,
+    -2px 0 #3c8c84 !important;
+}
+
+
+/* =========================================================
+   COBERTURA DO AO3 — BASEADA NOS SELETORES DO CSS DE REFERENCIA
+   Apenas cor e textura: sem mudar largura, margem, padding ou display.
+   ========================================================= */
+
+/* Listas, indices e paineis que ainda herdavam o branco do AO3. */
+#main ol.index.group,
+#main .listbox,
+#main .listbox .index,
+#main .media-index .listbox,
+#main .users-show.dashboard.region .listbox,
+#main .module,
+#main .news.admin.home,
+#main .favorite.module.odd,
+#main .dashboard .own,
+#main .own,
+#main .thread .even,
+#main .splash .favorite li:nth-of-type(odd) a,
+#main .statistics .index li:nth-of-type(2n),
+#main dl.index dd,
+#main .reading h4.viewed {
+  background-color: #101516 !important;
+  background-image: none !important;
+  color: #d6ddd7 !important;
+}
+
+#main .listbox,
+#main .media-index .listbox {
+  border-color: #59635e !important;
+  box-shadow: 2px 0 #663742, -2px 0 #326d67, 4px 4px #030505 !important;
+}
+
+#dashboard,
+#dashboard .actions.module {
+  background-color: #101516 !important;
+  background-image: none !important;
+  color: #d6ddd7 !important;
+}
+
+#main .listbox > .heading,
+#main .users-show.dashboard.region .listbox > .heading,
+#main .comment h4.byline,
+#main form.verbose legend,
+#main .verbose form legend,
+#main span.question,
+#main .current,
+#dashboard .current {
+  background-color: #172021 !important;
+  background-image: none !important;
+  color: #e9eee9 !important;
+}
+
+#main .listbox .index a,
+#main .listbox .index a:link,
+#main .listbox .index a:visited {
+  color: #a9d9d0 !important;
+}
+
+/* Estrutura de edicao: os fieldsets preservam o espacamento nativo. */
+#main fieldset,
+#main fieldset fieldset,
+#main form dl,
+#main fieldset dl dl,
+#main fieldset fieldset fieldset,
+#main fieldset fieldset dl dl,
+#main dd.hideme,
+#main form blockquote.userstuff,
+#main .toggled form,
+#main .dynamic form,
+#main div.dynamic {
+  background-color: #101516 !important;
+  background-image: none !important;
+  color: #d6ddd7 !important;
+}
+
+#main .filters fieldset {
+  background-image: url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+}
+
+/* Resumos e notas dentro de um card continuam com a textura menor. */
+.blurb .summary,
+.blurb .notes {
+  background-image: url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+/* Paineis largos herdados do CSS de referencia. */
+#main ol.index.group,
+#main .listbox,
+#main .listbox .index,
+#main .media-index .listbox,
+#main .users-show.dashboard.region .listbox,
+#main > form {
+  background-image: url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+/* Os cards de obras recebem a mesma textura tenue sem perder as bordas RGB. */
+li.blurb,
+.blurb {
+  background-image:
+    linear-gradient(rgba(13, 17, 18, 0.91), rgba(13, 17, 18, 0.91)),
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  border-top-style: dashed !important;
+  border-bottom-style: dashed !important;
+  outline: 1px dashed #6c5a70 !important;
+}
+
+/* Cards neutros: textura VHS apenas como vestigio, com borda RGB falhada.
+   Outline e sombra nao alteram o tamanho ou a posicao das caixas. */
+#main .module,
+#main .news.admin.home,
+#main .favorite.module.odd,
+#main .dashboard .own,
+#main .own,
+#main .thread .even,
+#dashboard .actions.module {
+  background-color: #0d1112 !important;
+  background-image:
+    linear-gradient(rgba(13, 17, 18, 0.91), rgba(13, 17, 18, 0.91)),
+    url("https://i.ibb.co/kgJ8w7kG/Midnight-VHS-Static-Texture.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  outline: 1px dashed #6c5a70 !important;
+  box-shadow:
+    2px 0 0 rgba(145, 62, 85, 0.55),
+    -2px 0 0 rgba(55, 126, 130, 0.55),
+    3px 3px 6px rgba(0, 0, 0, 0.5) !important;
+}
+
+#main form dl dt,
+#main form dl dd,
+#main fieldset label,
+#main fieldset legend,
+#main .listbox dt,
+#main .listbox dd {
+  color: #d6ddd7 !important;
+}
+
+#main .instructions,
+#main .help,
+#main .optional {
+  color: #b0bcb3 !important;
+}
+
+/* Estados, avisos e caixas pequenas presentes em outras secoes. */
+.notice,
+.error,
+.caution,
+.comment_notice,
+.kudos_notice,
+.kudos_error,
+.alert.flash,
+.LV_invalid,
+.comment_error,
+#main .notice,
+#main .error,
+#main .caution,
+#main .comment_notice,
+#main .kudos_notice,
+#main .kudos_error,
+#main .alert.flash,
+#main .LV_invalid,
+#main .comment_error {
+  background-color: #15191a !important;
+  background-image:
+    linear-gradient(rgba(21, 25, 26, 0.12), rgba(21, 25, 26, 0.12)),
+    url("https://i.ibb.co/KcmKxwTC/36860768-8468872.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  color: #e3e9e3 !important;
+  border-color: #7d5158 !important;
+  outline: 1px dashed #6c5a70 !important;
+  box-shadow:
+    2px 0 0 #613139,
+    -2px 0 0 #306760,
+    5px 5px 0 #000000 !important;
+}
+
+#main .actions a.current,
+#main a.current,
+#main .actions .current,
+#dashboard .current {
+  background-color: #24302f !important;
+  background-image: none !important;
+  color: #f4f7f2 !important;
+  border-color: #5b9c92 !important;
+}
+
+#header .menu li,
+#header .menu li a,
+#greeting .menu li,
+#greeting .menu li a {
+  background-color: #111718 !important;
+  color: #dce5de !important;
+}
+
+#header .menu li a:hover,
+#header .menu li a:focus,
+#greeting .menu li a:hover,
+#greeting .menu li a:focus {
+  background-color: #25312f !important;
+  color: #ffffff !important;
+}
+
+/* A faixa da fita continua se movendo sem animacao CSS.
+   Fonte CC0: https://commons.wikimedia.org/wiki/File:White-noise.gif */
+#header .primary::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/White-noise.gif");
+  opacity: 0.3;
+  z-index: 9;
+}
+
+#header {
+  border-bottom: 1px solid transparent !important;
+  border-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/White-noise.gif") 1 repeat !important;
+}
+
+#main,
+#footer {
+  border-top: 1px solid transparent !important;
+  border-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/White-noise.gif") 1 repeat !important;
+}
+
+h2.heading,
+h3.heading {
+  border-bottom: 1px solid transparent !important;
+  border-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/White-noise.gif") 1 repeat !important;
+}
+
+
+/* =========================================================
+   FOCUS
+   ========================================================= */
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline:
+    1px dashed #838d87 !important;
+
+  outline-offset:
+    2px;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE
+   O AO3 ja organiza menus, formularios e acoes no celular.
+   Ajustes locais evitam interferir nesses componentes.
+   ========================================================= */
+
+@media (max-width: 767px) {
+  body {
+    background-attachment: scroll !important;
+  }
+
+  li.blurb,
+  .blurb {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 12px !important;
+    box-shadow: 1px 0 0 #5d3037, -1px 0 0 #306762, 4px 4px 0 #020303 !important;
+  }
+
+  .blurb h4,
+  .blurb .heading {
+    overflow-wrap: break-word;
+  }
+
+  .blurb img,
+  .userstuff img {
+    max-width: 100%;
+    height: auto;
+  }
+}
