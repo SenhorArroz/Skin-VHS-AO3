@@ -206,9 +206,25 @@ a:focus {
     -2px 0 #44998f !important;
 }
 
-#header .logo {
-  opacity:
-    0.9;
+/* Logo do cabecalho e outras imagens da marca AO3 no site. */
+#header .logo,
+img[src$="/images/logo.png"],
+img[src*="/images/ao3_logos/"] {
+  content: url("https://i.ibb.co/kVjz21Kc/Glitched-Red-AO3-Symbol.png") !important;
+  width: 72px !important;
+  height: auto !important;
+  opacity: 1 !important;
+}
+
+/* Apenas o avatar padrao; imagens de perfil enviadas por usuarios ficam intactas. */
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  content: url("https://i.ibb.co/kVjz21Kc/Glitched-Red-AO3-Symbol.png") !important;
+  width: 56px !important;
+  height: 56px !important;
+  min-width: 56px !important;
+  min-height: 56px !important;
+  max-width: 56px !important;
+  max-height: 56px !important;
 }
 
 
@@ -1747,6 +1763,12 @@ select:focus {
    ========================================================= */
 
 @media (max-width: 767px) {
+  #header .logo,
+  img[src$="/images/logo.png"],
+  img[src*="/images/ao3_logos/"] {
+    width: 60px !important;
+  }
+
   body {
     background-attachment: scroll !important;
   }
